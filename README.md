@@ -1,6 +1,4 @@
-# Prueba técnica — Contactos (Compañía X)
-
-Mini aplicativo web para gestionar contactos: formulario, listado, edición y eliminación.
+Mini aplicativo web para gestionar contactos: formulario, listado, edición y eliminación. Hecho como prueba técnica para la F.R.C.
 
 ## Entrega
 
