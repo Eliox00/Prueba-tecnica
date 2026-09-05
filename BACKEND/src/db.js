@@ -12,11 +12,13 @@ const config = {
   }
 };
 
-const pool = new sql.ConnectionPool(config);
-const poolConnect = pool.connect();
+let pool = null;
 
 export async function getPool() {
-  await poolConnect;
+  if (!pool) {
+    pool = new sql.ConnectionPool(config);
+    await pool.connect();
+  }
   return pool;
 }
 
