@@ -1,0 +1,8 @@
+{
+  "name": "prueba-tecnica-junior",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix FRONTEND",
+    "start": "npm start --prefix BACKEND"
+  }
+}

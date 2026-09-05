@@ -1,0 +1,11 @@
+Ejecutar los scripts en SQL Server Management Studio (o sqlcmd) en este orden:
+
+1. 01_crear_base_datos.sql
+2. 02_tabla_contactos.sql
+3. 03_procedimientos_almacenados.sql
+
+Procedimientos:
+- sp_Contactos_Consultar
+- sp_Contactos_Insertar
+- sp_Contactos_Editar
+- sp_Contactos_Eliminar

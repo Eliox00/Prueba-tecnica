@@ -1,0 +1,6 @@
+-- Crear la base de datos TEST_FORM
+IF DB_ID('TEST_FORM') IS NULL
+BEGIN
+    CREATE DATABASE TEST_FORM;
+END
+GO
